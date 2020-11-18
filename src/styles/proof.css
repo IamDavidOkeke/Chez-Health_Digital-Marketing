@@ -1,0 +1,45 @@
+.testdiv{
+  padding: 3% 7% 0 3%;
+  margin:50px 0;
+  font-family: 'Karla', sans-serif;
+}
+.test{
+  margin-bottom: 50px ;
+  text-transform: uppercase;
+  border-bottom: 3px solid #f0f0ff;
+}
+.testimonial{
+  justify-content: space-evenly;
+  display:flex;
+  flex-wrap:wrap;
+}
+.h{
+  font-size: 32px;
+}
+p{
+  margin:0 ;
+}
+.testimony{
+  width: 400px;
+}
+.img{
+  width: 400px;
+  height:400px;
+}
+.ls{
+  text-decoration: none;
+  color:#0077ff;
+}
+
+@media screen and (max-width:900px){
+  .img{
+    margin: 3% 5% 0 0%;
+    width: 300px;
+    height:300px;
+  }
+  .testdiv{
+    padding: 3% 7% 0 7%;
+    margin:50px 0;
+    font-family: 'Nunito', sans-serif;
+  }
+}

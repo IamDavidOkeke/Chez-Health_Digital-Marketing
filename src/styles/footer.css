@@ -1,0 +1,28 @@
+.footer{
+  text-align: center;
+  padding: 50px 0 0 0;
+  margin: 0 auto;
+  background-color: rgba(240,240, 255, 1);
+  box-shadow: -.1px -.1px  #AAAAAA inset;
+  border-top: 1px solid lightgray;
+}
+.footerp{
+  color: gray;
+  font-weight: 700;
+  padding: 30px 10px 0px 10px;
+  margin: 0;
+}
+.footlinks{
+    margin:10px 10px 0 10px;
+    padding:0;
+    
+  }
+  .footlinkimg{
+    margin:5px 10px 0 10px;
+    padding:5px;
+  }
+  .footlink{
+    margin:0px 10px 0 10px;
+    padding:0;
+  }
+  

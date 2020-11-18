@@ -1,0 +1,63 @@
+.body{
+  padding-top: 60px;
+  background-color: rgb(240, 240, 255);
+}
+.points-container{
+  position:relative;
+  padding: 1.6% 7% 100px 7%;
+  margin:0 auto;
+  display:grid;
+  grid-gap: 80px;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+.pointsheader{
+  text-align: center;
+  padding-bottom:30px;
+  margin: 0;
+  background-color: rgb(240, 240, 255);
+}
+.points{
+  text-align: center;
+  padding:0;
+}
+.offers{
+    margin:0px auto 100px;
+    background-color: white;
+}
+.offerheader{
+    margin: 0 auto 10px;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    width: 300px;
+}
+.offer-container{
+   
+    margin:0 auto;
+    padding: 1.6% 7% 0 7%;
+    display:grid;
+    grid-gap: 80px;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+.offer{
+  text-align:center;
+}
+.wavediv{
+    background-color:white;
+    margin:0;
+    padding: 0;
+}
+.wave{
+    transform: rotate(180deg);
+    margin:0;
+    padding: 0;
+}
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(+50%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }

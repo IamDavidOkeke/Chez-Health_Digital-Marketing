@@ -1,0 +1,87 @@
+.contactModal{
+  position:fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: 'Nunito', sans-serif;
+  z-index: 1;
+  animation: 0.5s  fadeIn ease-in;
+  /*padding:20% 10% 20% 10%;*/
+}
+.contactBox{
+  background-color: #f0f0ff;
+  padding:10%;
+  max-width: 60%;
+  max-height: 80%;
+  font-family: 'Nunito', sans-serif;
+  display:flex;
+  /*-wrap: wrap;*/
+  flex-direction: column;
+  margin: 60px auto;
+  justify-content: space-evenly;
+}
+.contactImg{
+  margin: 10px auto;
+}
+.ctatext{
+  margin: 10px auto;
+  font-weight: bold;
+  font-size:20px;
+  width: fit-content;
+  text-align: center;
+}
+.form{
+  margin: 10px auto;
+}
+label{
+  display: block;
+  margin: 3% 1% 0 7%;
+  /*width: 300px;*/
+}
+.inputfield{
+  background-color: rgb(240, 240, 255);
+  border:none;
+  border-bottom: 1px solid grey;
+  outline: none;
+  padding: 3% 10% 3% 3%;
+  width: fit-content;
+  display: block;
+  margin:0 auto;
+}
+.inputfield:focus, .inputfield:active, .inputfield:hover{
+  border:none;
+  background-color: rgb(230, 230, 255);
+}
+.submitbtn{
+  font-family: 'Karla', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: white;
+  margin:20px auto;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(0, 128, 255, 1);
+  box-shadow: 1px 1px 2px  rgba(0, 128, 255, 0.5),  -1px -1px 2px rgba(0, 128, 255, 0.5);
+  display: block;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+.mailchimpsuccess{
+  background: "#efefef";
+  border-radius: 2;
+  padding: 10;
+  display: "inline-block";
+}
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

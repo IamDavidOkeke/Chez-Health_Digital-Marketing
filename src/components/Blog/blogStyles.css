@@ -1,0 +1,42 @@
+.blog{
+    background-color: rgb(240, 240, 255);
+    padding: 3% 7% 0 7%;
+    margin: 0;
+}
+.blogposts{
+    position:relative;
+    margin:0 auto;
+    display:flex;
+    flex-wrap: wrap;
+}
+.post{
+    background-color: rgba(150, 150, 250, 1);
+    margin:50px auto;
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display:grid;
+    grid-gap: 80px;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    border-radius: 20px;
+    color:white;
+    padding:30px;
+    box-shadow: 1px, 1px, rgba(0, 0, 0, 1);
+}
+.link{
+    text-decoration: none;
+}
+.postbody{
+    height: 50px;
+    overflow: hidden;
+    color:white;
+    text-decoration: none;
+    text-emphasis: none;
+}
+.title{
+    color:white;
+    text-decoration: none;
+}
+

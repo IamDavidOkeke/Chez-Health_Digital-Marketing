@@ -1,0 +1,45 @@
+.upwork{
+    margin: 100px auto;
+    text-align: center;
+    height:100vh;
+    font-family: 'Karla', sans-serif;
+}
+
+table, tr, td{
+    border: 1px solid #aaaaaa;
+}
+table{
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0 auto;
+}
+.divform{
+    padding: 3% 7% 0 7%;
+}
+input{
+    padding: 10px 20px 10px 20px;
+    width: 250px;
+    border: 1px solid grey;
+    display: block;
+    margin:0 auto;
+}
+.submit{
+  margin:20px auto;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color:white;
+  font-size: 15px;
+  color: grey;
+  display: block;
+}
+.tablebtn{
+    background-color: rgba(0, 128,255,0.5);
+    margin:3px auto;
+    padding: 5px 10px 4px 10px;
+    border: none;
+    border-radius: 3px;
+    color:white;
+    font-size: 10px;
+    display: block;
+  }
