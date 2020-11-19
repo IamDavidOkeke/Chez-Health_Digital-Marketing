@@ -1,1 +1,1 @@
-# Chez-Health_Digital-Marketing
+I worked on a design for my startup agency Chez Web Service.The design featured the use of Css and Javascript to animate content on a scroll to provide a friendly feel while still retaining its professionality with the minimalistic color scheme approach.
